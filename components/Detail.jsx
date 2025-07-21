@@ -1,3 +1,24 @@
 export default function Detail() {
-  return <h1>This is from Detail!</h1>;
+  return (
+    <div className="detail">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/800px-Tesla_circa_1890.jpeg" />
+      <h1>Nikola Tesla</h1>
+      <p>Inventor & Electrical Engineer</p>
+      <a href="https://teslauniverse.com/" target="blank">
+        teslauniverse.com
+      </a>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="16px"
+          viewBox="0 -960 960 960"
+          width="16px"
+          fill="#000000ff"
+        >
+          <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+        </svg>
+        Email
+      </button>
+    </div>
+  );
 }

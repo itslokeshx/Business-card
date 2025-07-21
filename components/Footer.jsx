@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <h1>This is from Footer!</h1>;
+  return (
+    <div className="footer">
+      <p>@ 2025 Nikola Tesla</p>
+    </div>
+  );
 }

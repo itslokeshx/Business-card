@@ -1,3 +1,12 @@
 export default function Interest() {
-  return <h1>This is from Interest!</h1>;
+  return (
+    <div className="interest">
+      <h3>Interest</h3>
+      <p>
+        Inventor. Energy visionary. Radio innovator. Robotics enthusiast.
+        Science communicator. Renewable pioneer. Classical music lover. World
+        traveler. Coffee devotee. Lifelong reader.
+      </p>
+    </div>
+  );
 }
