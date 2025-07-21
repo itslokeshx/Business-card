@@ -5,11 +5,11 @@ import Interest from "./components/Interest";
 
 export default function App() {
   return (
-    <>
+    <div className="container">
       <Detail />
       <About />
       <Interest />
       <Footer />
-    </>
+    </div>
   );
 }
